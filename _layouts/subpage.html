@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1">
 
-	<title>{{ title }} - {{ site.title }}</title>
+	<title>{{ page.title }} - {{ site.title }}</title>
 	<link rel="icon" type="image/png" href="/favicon.png">
 	<meta property="og:site_name" content="{{ site.title }}">
 	<link rel="stylesheet" href="/assets/screen.css" media="screen">
@@ -14,7 +14,7 @@
 		<h1>{{ site.title }}</h1>
 	</header>
 	<article>
-		<h2>{{ title }}</h2>
+		<h2>{{ page.title }}</h2>
 		{{ content }}
 	</article>
 	<footer>
