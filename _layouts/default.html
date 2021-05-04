@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html>
-{% include head.html %}<body> {% comment %} 
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1">
 
-WHY DOES {% include %} ADD A NEWLINE AFTER IT?!
-IT DOESN'T MAKE ANY SENSE!
-
-{% endcomment %}
+	<title>{{ site.title }}</title>
+	<link rel="icon" type="image/png" href="/favicon.png">
+	<meta property="og:site_name" content="{{ site.title }}">
+	<link rel="stylesheet" href="/assets/screen.css" media="screen">
+</head>
+<body>
 	<header>
 		<h1>{{ site.title }}</h1>
 	</header>
